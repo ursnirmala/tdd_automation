@@ -22,6 +22,9 @@ public class FirstTest {
         Assert.assertEquals(actualText, expectedText, String.format("Expected is %s, but actual is %s", expectedText, actualText));
     }
 
+    /**
+     * This test checks addition process.
+     */
     @Test
     public void verifyAddition() {
        int result = 10;
